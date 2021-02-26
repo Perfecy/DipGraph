@@ -142,7 +142,7 @@ def create_colors(G, friends_list):
         color = 'red'
         if id == my_id:
             color = 'green'
-        elif id % 4 == 0:
+        elif id % 2 == 0:
             color = 'blue'
         colors.append(color)
 
